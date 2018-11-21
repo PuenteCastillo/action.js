@@ -16,7 +16,8 @@ Note: the animation of your choice needs to be right after “action” in order
 
 
 	
-Animation List			
+Animation List: 
+
 bounce	
 flash	
 pulse	
