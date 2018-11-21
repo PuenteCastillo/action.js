@@ -1,7 +1,6 @@
-
-
-
-
+// Hello World!!
+// feel free to use and abuse this code all you like!
+// get instructions @ https://github.com/PuenteCastillo/action.js
 
 $.fn.extend({
   animateCss: function (animationName, callback) {
@@ -54,8 +53,6 @@ $('.action').each(function () {
     // console.log('elementBottom : ' + elementBottom);
     // console.log('viewportTop : ' + viewportTop);
     // console.log('viewportBottom : ' + viewportBottom);
-  
-  
       for (i = 0; i < classesArr.length; i++) {
         if (classesArr[i] == "action") {
           myAnimation = classesArr[i + 1];
@@ -63,16 +60,12 @@ $('.action').each(function () {
     
         }
       }
-
     if (elementTop <= viewportBottom && !triggered) {
       triggered = true;
-
-     
       actionDiv.css('opacity', '1');
       actionDiv.removeClass("action");
       actionDiv.animateCss(myAnimation);
       classesArr = actionDiv.attr('class').split(" ");
-      
     }
   });
 });
