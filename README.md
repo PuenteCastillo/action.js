@@ -7,7 +7,8 @@ Example website here:
 https://puente-castillo.com/
 Simple steps. 
 1.	First add the CDN from animat.css inside your head tags:
-   '<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.css" />'
+
+  https://cdnjs.com/libraries/animate.css/
 
 2.	Link action.js into your bottom of body tag: 
 3.	To call on action simply add ‘action’ and an animation of your choice right after it into your class.
